@@ -23,15 +23,12 @@ public class Solution {
         int j = 0;
         char temp = 0;
         for (int i = 0; i < chars.length; i++) {
-
             for (j = 0; j < chars.length; j++) {
-
                 if (chars[j] > chars[i]) {
                     temp = chars[i];
                     chars[i] = chars[j];
                     chars[j] = temp;
                 }
-
             }
         }
         return String.valueOf(chars);
