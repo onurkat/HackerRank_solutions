@@ -30,3 +30,5 @@ class Solution{
         }
     }
 }
+
+// Note: I couldn't code it perfectly it fails one of sample tests. It doesn't compare 0.12 and .12 properly.
