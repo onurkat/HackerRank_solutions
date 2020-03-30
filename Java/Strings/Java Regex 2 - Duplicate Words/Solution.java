@@ -26,3 +26,5 @@ public class DuplicateWords {
         in.close();
     }
 }
+
+// Note: If you try this code and it didn't work, it's because of the comments. :)
