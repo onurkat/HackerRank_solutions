@@ -9,7 +9,7 @@ public class Solution {
         String s = scan.nextLine();
         scan.close();
         // Write your code here.
-        if (s.trim().isEmpty()) { // quick check if string empty
+        if (s.trim().isEmpty()) { // quick check if the string is empty
             System.out.println(0);
         }
             else {
