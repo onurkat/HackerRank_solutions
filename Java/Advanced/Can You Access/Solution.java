@@ -14,9 +14,9 @@ public class Solution {
 			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 			int num = Integer.parseInt(br.readLine().trim());
 			Object o;// Must be used to hold the reference of the instance of the class Solution.Inner.Private
-        o = new Inner().new Private();
-        System.out.println(num + " is " + ((Inner.Private) o).powerof2(num));
-		System.out.println("An instance of class: " + o.getClass().getCanonicalName() + " has been created");
+      o = new Inner().new Private();
+      System.out.println(num + " is " + ((Inner.Private) o).powerof2(num));
+		  System.out.println("An instance of class: " + o.getClass().getCanonicalName() + " has been created");
 
 		}//end of try
 
